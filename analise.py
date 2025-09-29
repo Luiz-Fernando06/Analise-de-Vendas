@@ -48,8 +48,8 @@ ticketMedio_Produto_Loja = ticketMedio_Produto_Loja.rename(columns={0: 'Ticket M
 print(ticketMedio_Produto_Loja)
 
 #Enviando email:
-remetente = 'e.luizfernando2006@gmail.com'
-destinatario = 'luizstickman@gmail.com'
+remetente = 'SEU E-MAIL'
+destinatario = 'E-MAIL DO DESTINATARIO'
 assunto = 'Relatorio de vendas por loja'
 html_content = f"""
 <p>Prezados,</p>
@@ -67,7 +67,7 @@ html_content = f"""
 <p>Att,<br>Luiz Fernando</p>
 """
 
-senha = 'cynx vtdr plig lpsp'
+senha = 'SENHA DO SEU APP'
 
 msg = EmailMessage()
 msg['From'] = remetente
@@ -81,6 +81,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465) as email:
     email.send_message(msg)
 
 print('\nArquivo enviado com sucesso')
+
 
 
 
