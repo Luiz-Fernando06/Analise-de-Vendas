@@ -56,7 +56,7 @@ html_content = f"""
 <p>Segue o relatório de vendas por cada loja.</p>
 
 <p>Faturamento:</p>
-{Faturamento_loja.to_html(formatters={'Valor final': 'R${:,.2f}'.format})}
+{Faturamento_loja.to_html(formatters={'Valor Final': 'R${:,.2f}'.format})}
 
 <p>Quantidade Vendida:</p>
 {Qetd_vendida_loja.to_html()}
@@ -81,6 +81,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465) as email:
     email.send_message(msg)
 
 print('\nArquivo enviado com sucesso')
+
 
 
 
