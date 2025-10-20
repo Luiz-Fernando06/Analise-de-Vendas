@@ -1,9 +1,9 @@
-# 📊 Automação de Relatório de Vendas
+#  Automação de Relatório de Vendas
 
 Este projeto tem como objetivo automatizar a análise de dados de vendas e o envio de relatórios por e-mail.
 Ele utiliza Python e bibliotecas de manipulação de dados e automação de e-mail para gerar insights de maneira rápida e eficiente.
 
-🚀 Funcionalidades
+ Funcionalidades
 
 Importação da base de dados em Excel.
 
@@ -17,17 +17,17 @@ Verifica tipos de dados e valores nulos.
 
 Indicadores calculados automaticamente:
 
-💰 Faturamento por loja.
+ Faturamento por loja.
 
-📦 Quantidade de produtos vendidos por loja.
+ Quantidade de produtos vendidos por loja.
 
-🎟️ Ticket médio por produto em cada loja.
+ Ticket médio por produto em cada loja.
 
 Geração de relatório formatado em HTML com tabelas.
 
 Envio automático por e-mail via SMTP (Gmail).
 
-🛠️ Tecnologias utilizadas
+ Tecnologias utilizadas
 
 Pandas → manipulação e análise de dados.
 
@@ -35,7 +35,7 @@ Openpyxl → leitura de arquivos Excel (.xlsx).
 
 Smtplib e EmailMessage → automação de envio de e-mails.
 
-📧 Exemplo de Relatório Enviado
+ Exemplo de Relatório Enviado
 
 O e-mail contém:
 
