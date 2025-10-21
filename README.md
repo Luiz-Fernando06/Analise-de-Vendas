@@ -5,9 +5,9 @@ Ele utiliza Python e bibliotecas de manipulação de dados e automação de e-ma
 
  ## Funcionalidades
 
-Importação da base de dados em Excel.
+- Importação da base de dados em Excel.
 
-Análise exploratória inicial:
+- Análise exploratória inicial:
 
  Exibe as primeiras linhas da base.
 
@@ -15,7 +15,7 @@ Análise exploratória inicial:
 
  Verifica tipos de dados e valores nulos.
 
-Indicadores calculados automaticamente:
+- Indicadores calculados automaticamente:
 
  Faturamento por loja.
 
