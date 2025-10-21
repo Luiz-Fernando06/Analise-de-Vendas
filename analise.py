@@ -33,16 +33,19 @@ necessidade de conversão, pronta para filtragem de dados'''
 
 print('-'*50)
 
+#Calculando o faturamento
 Faturamento_loja = df[['ID Loja', 'Valor Final']].groupby('ID Loja').sum()
 print(Faturamento_loja)
 
 print('-'*50)
 
+#Calculando quantidades vendidas de lojas
 Qetd_vendida_loja = df[['ID Loja', 'Quantidade']].groupby('ID Loja').sum()
 print(Qetd_vendida_loja)
 
 print('-'*50)
 
+#Calculando o tickt medio
 ticketMedio_Produto_Loja = (Faturamento_loja['Valor Final'] / Qetd_vendida_loja['Quantidade']).to_frame() #Transforma em tabela
 ticketMedio_Produto_Loja = ticketMedio_Produto_Loja.rename(columns={0: 'Ticket Médio'})
 print(ticketMedio_Produto_Loja)
@@ -81,6 +84,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465) as email:
     email.send_message(msg)
 
 print('\nArquivo enviado com sucesso')
+
 
 
 
