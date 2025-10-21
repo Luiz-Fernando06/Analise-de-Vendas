@@ -3,7 +3,7 @@
 Este projeto tem como objetivo automatizar a análise de dados de vendas e o envio de relatórios por e-mail.
 Ele utiliza Python e bibliotecas de manipulação de dados e automação de e-mail para gerar insights de maneira rápida e eficiente.
 
- # Funcionalidades
+ ## Funcionalidades
 
 Importação da base de dados em Excel.
 
@@ -27,7 +27,7 @@ Geração de relatório formatado em HTML com tabelas.
 
 Envio automático por e-mail via SMTP (Gmail).
 
- ##Tecnologias utilizadas
+ ## Tecnologias utilizadas
 
 Pandas → manipulação e análise de dados.
 
