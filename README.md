@@ -5,42 +5,42 @@ Ele utiliza Python e bibliotecas de manipulação de dados e automação de e-ma
 
  ## Funcionalidades
 
-- Importação da base de dados em Excel.
+ Importação da base de dados em Excel.
 
-- Análise exploratória inicial:
+ Análise exploratória inicial:
 
- Exibe as primeiras linhas da base.
+ - Exibe as primeiras linhas da base.
 
- Mostra número de linhas e colunas.
+ - Mostra número de linhas e colunas.
 
- Verifica tipos de dados e valores nulos.
+ - Verifica tipos de dados e valores nulos.
 
-- Indicadores calculados automaticamente:
+ Indicadores calculados automaticamente:
 
- Faturamento por loja.
+- Faturamento por loja.
 
- Quantidade de produtos vendidos por loja.
+- Quantidade de produtos vendidos por loja.
 
- Ticket médio por produto em cada loja.
+- Ticket médio por produto em cada loja.
 
-Geração de relatório formatado em HTML com tabelas.
+- Geração de relatório formatado em HTML com tabelas.
 
-Envio automático por e-mail via SMTP (Gmail).
+- Envio automático por e-mail via SMTP (Gmail).
 
  ## Tecnologias utilizadas
 
-Pandas → manipulação e análise de dados.
+- Pandas → manipulação e análise de dados.
 
-Openpyxl → leitura de arquivos Excel (.xlsx).
+- Openpyxl → leitura de arquivos Excel (.xlsx).
 
-Smtplib e EmailMessage → automação de envio de e-mails.
+- Smtplib e EmailMessage → automação de envio de e-mails.
 
 ## Exemplo de Relatório Enviado
 
-O e-mail contém:
+- O e-mail contém:
 
-Tabela com faturamento por loja (valores formatados em R$).
+- Tabela com faturamento por loja (valores formatados em R$).
 
-Tabela com quantidade de produtos vendidos.
+- Tabela com quantidade de produtos vendidos.
 
-Tabela com ticket médio por loja.
+- Tabela com ticket médio por loja.
