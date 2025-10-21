@@ -1,46 +1,19 @@
-#  Automação de Relatório de Vendas
+# Análise e Automação de Relatórios de Vendas
 
-Este projeto tem como objetivo automatizar a análise de dados de vendas e o envio de relatórios por e-mail.
-Ele utiliza Python e bibliotecas de manipulação de dados e automação de e-mail para gerar insights de maneira rápida e eficiente.
+## Objetivo:
+Automatizar a análise e o envio de relatórios de vendas por loja, garantindo agilidade e padronização nas entregas.
 
- ## Funcionalidades
+## Principais etapas realizadas:
 
- Importação da base de dados em Excel.
+- Importação e limpeza dos dados: Leitura do arquivo Excel e verificação de tipos, nulos e estrutura dos dados.
 
- Análise exploratória inicial:
+- Faturamento por loja: Cálculo do total de receita gerada por cada unidade.
 
- - Exibe as primeiras linhas da base.
+- Quantidade de produtos vendidos: Consolidação das vendas para identificar o volume de transações por loja.
 
- - Mostra número de linhas e colunas.
+- Ticket médio: Cálculo do valor médio por item vendido, permitindo avaliar desempenho e margem de cada ponto de venda.
 
- - Verifica tipos de dados e valores nulos.
+- Automação de envio: Geração automática de relatório formatado em HTML e envio por e-mail via servidor SMTP.
 
- Indicadores calculados automaticamente:
-
-- Faturamento por loja.
-
-- Quantidade de produtos vendidos por loja.
-
-- Ticket médio por produto em cada loja.
-
-- Geração de relatório formatado em HTML com tabelas.
-
-- Envio automático por e-mail via SMTP (Gmail).
-
- ## Tecnologias utilizadas
-
-- Pandas → manipulação e análise de dados.
-
-- Openpyxl → leitura de arquivos Excel (.xlsx).
-
-- Smtplib e EmailMessage → automação de envio de e-mails.
-
-## Exemplo de Relatório Enviado
-
-- O e-mail contém:
-
-- Tabela com faturamento por loja (valores formatados em R$).
-
-- Tabela com quantidade de produtos vendidos.
-
-- Tabela com ticket médio por loja.
+Resumo:
+Projeto de automação de relatórios comerciais que integra análise de dados e envio automatizado de resultados, otimizando tempo operacional e assegurando consistência nas informações gerenciais.
