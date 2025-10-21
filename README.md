@@ -15,5 +15,5 @@ Automatizar a análise e o envio de relatórios de vendas por loja, garantindo a
 
 - Automação de envio: Geração automática de relatório formatado em HTML e envio por e-mail via servidor SMTP.
 
-Resumo:
+## Resumo:
 Projeto de automação de relatórios comerciais que integra análise de dados e envio automatizado de resultados, otimizando tempo operacional e assegurando consistência nas informações gerenciais.
